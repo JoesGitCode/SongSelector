@@ -1,10 +1,12 @@
 import React from 'react'
 
-const SongDetails = () => {
+const SongDetails = ({song}) => {
+    return(
+        <div>
+            {song['im:name'].label}
+        </div>
+    )
 
-    <div>
-        Hello World
-    </div>
 }
 
 export default SongDetails
